@@ -5,14 +5,12 @@ header, thead {
     padding: 10px;
 }
 
-/* Galerie avec float */
 #galerie img {
     float: left;
     margin-right: 150px;
     margin-bottom: 20px;
 }
 
-/* Pour nettoyer après le float */
 table {
     clear: both;
     width: 100%;
@@ -24,12 +22,10 @@ th, td {
     padding: 8px;
 }
 
-/* Lignes paires */
 tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-/* Survol des lignes */
 tbody tr:hover {
     background-color: #ddd;
 }
