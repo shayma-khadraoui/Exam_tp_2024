@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'Inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulaire d'Inscription</h1>
+    </header>
+
+    <form action="#" method="post">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Sexe :</label>
+        <input type="radio" id="masculin" name="gender" value="Masculin">
+        <label for="masculin">Masculin</label>
+        <input type="radio" id="feminin" name="gender" value="Féminin">
+        <label for="feminin">Féminin</label>
+
+        <label>Compétences :</label>
+        <input type="checkbox" id="html" name="competences" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="competences" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="competences" value="JavaScript">
+        <label for="js">JavaScript</label>
+
+        <label for="niveau">Niveau d'expérience :</label>
+        <select id="niveau" name="niveau">
+            <option value="">Sélectionnez...</option>
+            <option value="Debutant">Débutant</option>
+            <option value="Intermediaire">Intermédiaire</option>
+            <option value="Avance">Avancé</option>
+        </select>
+
+        <label for="comments">Commentaires :</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
